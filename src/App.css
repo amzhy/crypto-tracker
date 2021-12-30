@@ -344,6 +344,7 @@ width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: scroll;
     margin-top: 40px;
 }
 .show-more{
