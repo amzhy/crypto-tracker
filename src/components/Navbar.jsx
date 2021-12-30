@@ -30,8 +30,8 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="logo-container">
-        <Avatar src={icon} size="large" />
-        <Typography.Title level={2} className="logo"><Link to="/">CryptoTracker</Link></Typography.Title>
+        <Avatar src={icon} size="medium" />
+        <Typography.Title style={{ marginTop: '4%' }} level={2} className="logo"> <Link to="/">CryptoTracker</Link></Typography.Title>
         <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
       </div>
       {activeMenu && (
