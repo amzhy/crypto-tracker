@@ -9,7 +9,7 @@ A cryptocurrency tracker built using the `React`, `Redux` framwork and deployed 
 ## Design Considerations
 * For the architecture of the platform, I decided to use 
 `Redux` together with `React` as it was more suitable for  storing long-term data for the prices. 
-* Offered better performance as prices have to be tracked over shorter timeframes in the spirit of cryptocurrencies. It was better to isolate the components and only render ones that are required when the prices change.
+* Offered better performance so prices can be tracked over shorter timeframes. It was better to isolate the components and only render ones that are required when the prices change.
 
 * Then, I designed the dashboard of the application and used some `HTML`, `CSS` for the implementation. I used multiple APIs powered by https://rapidapi.com for the price data and deployed the application to the cloud using `Netlify`(free version).
 
