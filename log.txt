@@ -1,0 +1,24 @@
+
+> cryptotracker@0.1.0 build /Users/zumana/crypto-tracker
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  296.14 KB  build/static/js/2.d4b4b8f5.chunk.js
+  64.01 KB   build/static/css/2.9ebce5d5.chunk.css
+  4.32 KB    build/static/js/main.08ce5db8.chunk.js
+  1.31 KB    build/static/css/main.615b906d.chunk.css
+  777 B      build/static/js/runtime-main.4dba3e1b.js
+
+The project was built assuming it is hosted at ./.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
