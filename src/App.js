@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Layout, Typography } from 'antd';
 
-import { Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
 const App = () => (
@@ -15,6 +15,7 @@ const App = () => (
         <div className="routes">
           <Switch>
             <Route exact path="/" component={Homepage} />
+            <Route exact path="/exchanges" component={Exchanges} />
             <Route exact path="/cryptocurrencies" component={Cryptocurrencies} />
             <Route exact path="/crypto/:coinId" component={CryptoDetails} />
             <Route exact path="/news" component={News} />
@@ -22,7 +23,7 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}> Copyright © 2021.
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021.
           All Rights Reserved.
         </Typography.Title>
       </div>
